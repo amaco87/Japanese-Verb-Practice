@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Verb Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Japanese Verb Practice</h1>
+        <div id="verb-section">
+            <p id="verb-display">Click "New Verb" to start</p>
+            <button onclick="newVerb()">New Verb</button>
+        </div>
+        <div id="input-section">
+            <label for="conjugation">Enter the conjugation:</label>
+            <input type="text" id="conjugation" />
+            <button onclick="checkAnswer()">Check Answer</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
